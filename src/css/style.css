@@ -1,0 +1,167 @@
+body.html{
+    width: 100%;
+    height: 100%;
+    font-family:"Microsoft YaHei";
+}
+.show{
+    width: 18%;
+    height: 600px;
+    background-color: seashell;
+    position: relative;
+    float: left;
+}
+.lineOne{
+    width: 80%;
+    height: 580px;
+    /* background-color: darkcyan; */
+    position: relative;
+    right: 1%;
+    float: right;
+}
+.lineTwo{
+    width: 80%;
+    height: 580px;
+    background-color: darkcyan;
+    position: relative;
+    float: right;
+    right: 1%;
+    top: 20px;
+}
+.ip184,.ip185,.ip186{
+    width: 30%;
+    height: 560px;
+    top: 10px;
+    position: relative;
+    float: left;
+    /* background-color: seagreen; */
+    margin-left: 2%;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    border-color: rgb(231, 190, 77);
+}
+.block_heading_name{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(231, 190, 77);
+    float: top;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    font-size: 15px;
+}
+.grwy_body_detail{
+    width: 100%;
+    height: 330px;
+    /* background-color: yellowgreen; */
+}
+.im_body_detail{
+    width: 100%;
+    height: 180px;
+    /* background-color: goldenrod; */
+}
+.grwy_body_details{
+    width: 100%;
+    /* height: 350px; */
+    line-height: 30px;
+    background-color: white;
+    text-align: left;
+    font-size: 14px;
+}
+.im_body_details{
+    width: 100%;
+    /* height: 350px; */
+    line-height: 30px;
+    background-color: white;
+    text-align: left;
+    font-size: 14px;
+}
+.grwy_body_title,.im_body_title{
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    line-height: 40px;
+}
+.status,.date,.preposition,.NEW_ESB,.zhixiao
+,.core_time,.core_auto_checkout,.main_storage_url,
+.main_storage_time,.test_url,.test_content,.im_status,
+.im_date,.im_preposition,.im_NEW_ESB,.im_test_url,.im_add_thread{
+    width: 90%;
+    height: 25px;
+    line-height: 25px;
+    /* background-color: firebrick; */
+    float: left;
+    left: 5%;
+    position: relative;
+}
+.status_name,.date_name,.preposition_name
+,.NEW_ESB_name,.zhixiao_name,.core_time_name
+,.core_auto_checkout_name,.main_storage_url_name,
+.main_storage_time_name,.test_url_name,.test_content_name,.im_status_name,
+.im_date_name,.im_preposition_name,.im_NEW_ESB_name,.im_test_url_name,.im_add_thread_name{
+    width: 30%;
+    float: left;
+    text-align: right;
+    font-weight:bold;
+    /* background-color: dodgerblue; */
+}
+.status_detail,.date_detail,.preposition_detail
+,.NEW_ESB_detail,.zhixiao_details,.core_time_name_detail
+,.core_auto_checkout_detail,.main_storage_url_detail,.main_storage_time_detail
+,.test_url_detail,.test_content_detail,.im_status_detail,.im_date_detail
+,.im_preposition_detail,.im_NEW_ESB_detail,.im_test_url_detail,.im_add_thread_detail{
+    width: 65%;
+    float: right;
+    text-align: left;
+    /* background-color: firebrick; */
+}
+.mid{
+    width: 5%;
+    float: left;
+    text-align: center;
+    /* background-color: firebrick; */
+}
+.link_checkout{
+    background-color: #40c0ff ;
+    border-radius: 3px;
+    color: red;
+    width: 40%;
+    text-align: center;
+    font-size: 13px;
+    height: 22px;
+    line-height: 22px;
+}
+.link_testUrl,.link_testContent,.link_im_testUrl,.im_addThread{
+    background-color: #40c0ff ;
+    border-radius: 3px;
+    /* color: red; */
+    width: 40%;
+    text-align: center;
+    font-size: 13px;
+    position: relative;
+    float: left;
+    height: 22px;
+    line-height: 22px;
+}
+.link_restart{
+    background-color: #40c0ff ;
+    border-radius: 3px;
+    /* color: red; */
+    width: 50%;
+    text-align: center;
+    font-size: 13px;
+    position: relative;
+    float: right;
+    color: white;
+    height: 22px;
+    line-height: 22px;
+}
+
+
+a{
+    text-decoration: none;
+}
+.link_testUrl a,.link_restart a,.link_testContent a,.link_im_testUrl a,.im_addThread a{
+    color: white;
+}
